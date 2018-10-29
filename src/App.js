@@ -104,7 +104,7 @@ class App extends Component {
             justify="center"
             alignItems="center"
             className={classes.root}
-            spacing={24}
+            spacing={24}   
           >
             <NavBar />
             <Grid item xs={6}>
@@ -121,9 +121,8 @@ class App extends Component {
                   onClick={this.onClickPlot}
 
                 />
-              </Grid>
-            </Grid>
-
+              </Grid> 
+            </Grid> 
             <Grid item xs={6}>
 
               <Typography variant="h6" color="inherit" noWrap>배당 확률</Typography>
